@@ -10,5 +10,5 @@ df1 = pd.DataFrame({
 
 })
 
-city = df1.melt(id_vars=['City'] , var_name='day' , value_name='temprature').sort_values(by='City')
+city = df1.melt(id_vars=['City'] , var_name='day' , value_name='temprature').sort_values(by='City').reset_index(drop=True)
 print(city)
