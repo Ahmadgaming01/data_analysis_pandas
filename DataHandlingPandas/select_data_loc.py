@@ -22,6 +22,12 @@ rows_b_col = df.loc[15:30 ,['gender' , 'math score']]
 
 # iloc function
 
+result_c = df.iloc[0] # to return exactly row
+result_a = df.iloc[[1,99] , [0,3]]
+
+
+# in the iloc function we can just use the index of column 
+# in the loc function we can use the name of column
 
 
 
